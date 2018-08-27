@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle liascript-preview",
+        "command": "liascript-preview:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "liascript-preview",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "liascript-preview:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
