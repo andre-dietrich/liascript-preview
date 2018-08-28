@@ -13,8 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.2.0",
-    "connect": "^3.6.6",
-    "serve-static": "^1.13.2"
+    "http": "0.0.0"
   }
 }
