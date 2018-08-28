@@ -5,7 +5,10 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "liascript-preview:toggle"
+    "atom-workspace": [
+      "liascript-preview:toggle",
+      "liascript-preview:reload"
+    ]
   },
   "repository": "https://github.com/atom/liascript-preview",
   "license": "MIT",

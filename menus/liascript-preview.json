@@ -4,6 +4,10 @@
       {
         "label": "Toggle liascript-preview",
         "command": "liascript-preview:toggle"
+      },
+      {
+        "label": "Reload liascript-preview",
+        "command": "liascript-preview:reload"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Toggle",
               "command": "liascript-preview:toggle"
+            },
+            {
+              "label": "Reload",
+              "command": "liascript-preview:reload"
             }
           ]
         }
