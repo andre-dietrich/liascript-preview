@@ -83,3 +83,15 @@ int main() {
 }
 ```
 @JSCPP
+
+
+## Graphics
+
+               Test diagram
+    10| r
+      |  rrr  *
+    y |   * rrr  *           RRRRR
+    - | *      rrr   RRR *   *    *
+scale |*          rrr
+      +----------------------------
+      -1          (x scale)              10
