@@ -9,7 +9,8 @@
       "liascript-preview:toggle",
       "liascript-preview:reload",
       "liascript-preview:go-back",
-      "liascript-preview:go-forward"
+      "liascript-preview:go-forward",
+      "liascript-preview:zoom-in"
     ]
   },
   "repository": "https://github.com/atom/liascript-preview",

@@ -1,8 +1,13 @@
 {
   "atom-workspace": {
     "ctrl-alt-l": "liascript-preview:toggle",
-    "f5": "liascript-preview:reload",
-    "alt-left": "liascript-preview:go-back",
-    "alt-right": "liascript-preview:go-forward"
+    "f5":         "liascript-preview:reload",
+
+    "alt-left":   "liascript-preview:go-back",
+    "alt-right":  "liascript-preview:go-forward",
+
+    "ctrl-+":     "liascript-preview:zoom-in",
+    "ctrl--":     "liascript-preview:zoom-out",
+    "ctrl-0":     "liascript-preview:zoom-reset"
   }
 }
