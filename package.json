@@ -7,7 +7,9 @@
   "activationCommands": {
     "atom-workspace": [
       "liascript-preview:toggle",
-      "liascript-preview:reload"
+      "liascript-preview:reload",
+      "liascript-preview:go-back",
+      "liascript-preview:go-forward"
     ]
   },
   "repository": "https://github.com/atom/liascript-preview",

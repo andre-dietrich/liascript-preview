@@ -8,6 +8,14 @@
       {
         "label": "Reload liascript-preview",
         "command": "liascript-preview:reload"
+      },
+      {
+        "label": "Go back in liascript-preview",
+        "command": "liascript-preview:go-back"
+      },
+      {
+        "label": "Go forward in liascript-preview",
+        "command": "liascript-preview:go-forward"
       }
     ]
   },
@@ -25,6 +33,14 @@
             {
               "label": "Reload",
               "command": "liascript-preview:reload"
+            },
+            {
+              "label": "Go Back",
+              "command": "liascript-preview:go-back"
+            },
+            {
+              "label": "Go Forward",
+              "command": "liascript-preview:go-forward"
             }
           ]
         }
