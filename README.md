@@ -1,100 +1,57 @@
-<!--
+# Liascript-Preview
 
-author:   Andre Dietrich
-email:    dietrich@ivs.cs.uni-magdeburg.de
-version:  1.0.0
-language: en
-narrator: US English Female
+A preview-plugin for [LiaScript](https://LiaScript.github.io), an extended
+markdown notation that is intended to be used for interactive online-course generation.
 
-script:   https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
+https://atom.io/packages/liascript-preview
 
-@JSCPP
-<script>
-  try {
-    var output = "";
-    JSCPP.run(`@code`, "", {stdio: {write: s => { output += s.replace(/\n/g, "<br>");}}});
-    output;
-  } catch (error) {
-    error;
-  }
-</script>
-@end
--->
+## Install
 
 
-# LiaScript Example
+### Command Line
 
-this [^1](is a footnote) inline
+Install Atom 1.22 or newer
 
+In the terminal, install the package via apm:
 
-    --{{1 Russian Female}}--
-Первоначально создан в 2004 году Джоном Грубером (англ. John Gruber) и Аароном
-Шварцем. Многие идеи языка были позаимствованы из существующих соглашений ...
+    `apm install liascript-preview`
 
-## Footnotes
+### GUI
 
-    --{{0}}--
-There are two types of footnotes, either inline or divided ones (into two
-parts).
+1. Install Atom 1.22 or newer
+2. Launch Atom
+3. Open Settings View using Cmd+, on macOS or Ctrl+, on other platforms
+4. Click the Install tab on the left side
+5. Enter `liascript-preview` in the search box and press Enter
+6. Click the "Install" button that appears
 
-1. Inline Footnote[^1](explanation in one line) => `[^1](explanation in one line)`
-2. Divided into a marker[^2] => `[^2]`, that can appeare every where and an
-   explanation at the bottom of a section.
+## Features
 
-   ```md
-   [^2]: This is an explanation, than
-         can consist of multiple blocks.
-   ```
+* Autoreload on save
+* Toggle Preview
+* History navigation
+* Resizing
 
-[^2]: This is an explanation, than
-      can consist of multiple blocks.
+![screencast](./preview.gif)<!--width= "100%" -->
 
-
-## Coding C++
+### Keyboard - Shortcuts
 
 
-```cpp
-#include <iostream>
-using namespace std;
+| Shortcut   | Action                            |
+|------------|-----------------------------------|
+| Ctrl+Alt+l | Toggle preview                    |
+| F5         | Reload preview                    |
+| Ctrl+s     | Save Markdown and update preview  |
+| Alt+Left   | Go back in the browser history    |
+| Alt+Right  | Go forward in the browser history |
+| Ctrl++     | Zoom-in with 10% steps            |
+| Ctrl+-     | Zoom-out with 10% steps           |
+| Ctrl+0     | Reset zoom to original (100%)     |
 
-int main() {
-    int a = 12;
-    int rslt = 0;
-    for(int i=1; i<a; ++i) {
-        rslt += i;
-        cout << "rslt: " << rslt << endl;
-    }
-    cout << "final result = " << rslt << endl;
-    return 0;
-}
-```
-@JSCPP
+## Related Projects
 
+It is recommended to install also:
 
-## Graphics
+[liascript-snippets](https://atom.io/packages/liascript-snippets)
 
-                Simple-Signal Plot
-      |  R G B
-  y   |          
-  -   |  r  r  r  r  r  r  r  r  r  r
-scale |      ***         ***
-      |   ***   ***   ***   ***   ***
-      |***         ***         ***
-      +-------------------------------
-      1         x-scale              100.5
-
-
-## Quizzes
-
-Do you like LiaScript?
-
-    [[X]] *Yes!!!*
-    [[X]] of course
-    [[ ]] absolutely no
-    *******************************************************
-    LiaScript is the best solution for free online courses!
-
-    Enjoy...
-    *******************************************************
-
-## and much more ...
+A collection of shortcodes for mor efficient course generation.
