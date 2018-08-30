@@ -1,9 +1,16 @@
 {
   "name": "liascript-preview",
   "main": "./lib/liascript-preview",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.1.0",
+  "description": "Atom preview package for LiaScript",
+  "keywords": [
+    "liascript",
+    "markdown",
+    "online course",
+    "MOOC",
+    "eductation",
+    "OER"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "liascript-preview:toggle",
@@ -13,7 +20,7 @@
       "liascript-preview:zoom-in"
     ]
   },
-  "repository": "https://github.com/atom/liascript-preview",
+  "repository": "https://github.com/andre-dietrich/liascript-preview",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
