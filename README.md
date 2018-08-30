@@ -24,6 +24,32 @@ script:   https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
 
 # LiaScript Example
 
+this [^1](is a footnote) inline
+
+
+    --{{1 Russian Female}}--
+Первоначально создан в 2004 году Джоном Грубером (англ. John Gruber) и Аароном
+Шварцем. Многие идеи языка были позаимствованы из существующих соглашений ...
+
+## Footnotes
+
+    --{{0}}--
+There are two types of footnotes, either inline or divided ones (into two
+parts).
+
+1. Inline Footnote[^1](explanation in one line) => `[^1](explanation in one line)`
+2. Divided into a marker[^2] => `[^2]`, that can appeare every where and an
+   explanation at the bottom of a section.
+
+   ```md
+   [^2]: This is an explanation, than
+         can consist of multiple blocks.
+   ```
+
+[^2]: This is an explanation, than
+      can consist of multiple blocks.
+
+
 ## Coding C++
 
 
