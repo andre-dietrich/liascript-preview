@@ -1,12 +1,17 @@
 # Liascript-Preview
 
 A preview-plugin for [LiaScript](https://LiaScript.github.io), an extended
-markdown notation that is intended to be used for interactive online-course generation.
+markdown notation that is intended to be used for interactive online-course
+generation.
 
 https://atom.io/packages/liascript-preview
 
 ## Install
 
+This has been tested on Linux. If you are on a Windows machine, you will
+probably have to allow your firewall that 2 local ports will be opened, which
+are required for this package. Or change these parameters in your
+liascript-preview settings.
 
 ### Command Line
 
