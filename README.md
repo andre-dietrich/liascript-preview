@@ -42,16 +42,17 @@ In the terminal, install the package via apm:
 ### Keyboard - Shortcuts
 
 
-| Shortcut   | Action                            |
-|------------|-----------------------------------|
-| Ctrl+Alt+l | Toggle preview                    |
-| F5         | Reload preview                    |
-| Ctrl+s     | Save Markdown and update preview  |
-| Alt+Left   | Go back in the browser history    |
-| Alt+Right  | Go forward in the browser history |
-| Ctrl++     | Zoom-in with 10% steps            |
-| Ctrl+-     | Zoom-out with 10% steps           |
-| Ctrl+0     | Reset zoom to original (100%)     |
+| Shortcut   | Action                                         |
+|------------|------------------------------------------------|
+| Ctrl+Alt+l | Toggle preview                                 |
+| F5         | Reload preview                                 |
+| Ctrl+s     | Save Markdown and update preview               |
+| Alt+Left   | Go back in the browser history                 |
+| Alt+Right  | Go forward in the browser history              |
+| Ctrl++     | Zoom-in with 10% steps                         |
+| Ctrl+-     | Zoom-out with 10% steps                        |
+| Ctrl+0     | Reset zoom to original (100%)                  |
+| Ctrl+r     | Reset all stored settings, codes, quizzes, etc.|
 
 ## Related Projects
 
