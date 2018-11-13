@@ -223,7 +223,7 @@ class LiaDB {
 
         if (channel) return;
 
-        //this.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
+//        this.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
         if (!this.indexedDB) {
             console.log("your browser does not support indexedDB");
@@ -443,6 +443,7 @@ function storePersitent() {
 
     for(let i=0; i<elem.length; i++) {
         bag.appendChild(elem[i]);
+        i -= 1;
     }
 };
 
@@ -541,8 +542,6 @@ class LiaScript {
                     break;
                 }
                 case "slide": {
-                    storePersitent();
-
                     if(self.channel)
                         self.channel.push("party", { slide: cmd[1] + 1 })
                     break;
