@@ -53,6 +53,7 @@ In the terminal, install the package via apm:
 | Ctrl+-     | Zoom-out with 10% steps                        |
 | Ctrl+0     | Reset zoom to original (100%)                  |
 | Ctrl+r     | Reset all stored settings, codes, quizzes, etc.|
+| Ctrl+n     | Open LiaScript in browser window               |
 
 ## Related Projects
 
