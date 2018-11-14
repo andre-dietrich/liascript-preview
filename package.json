@@ -18,7 +18,8 @@
       "liascript-preview:go-back",
       "liascript-preview:go-forward",
       "liascript-preview:zoom-in",
-      "liascript-preview:reset"
+      "liascript-preview:reset",
+      "liascript-preview:open-in-browser"
     ]
   },
   "repository": "https://github.com/andre-dietrich/liascript-preview",

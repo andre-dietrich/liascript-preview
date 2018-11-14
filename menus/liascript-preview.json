@@ -41,6 +41,10 @@
             {
               "label": "Go Forward",
               "command": "liascript-preview:go-forward"
+            },
+            {
+              "label": "Open in Browser",
+              "command": "liascript-preview:open-in-browser"
             }
           ]
         }

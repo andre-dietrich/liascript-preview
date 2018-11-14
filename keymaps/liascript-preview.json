@@ -10,6 +10,8 @@
     "ctrl--":     "liascript-preview:zoom-out",
     "ctrl-0":     "liascript-preview:reset-zoom",
 
-    "ctrl-r":     "liascript-preview:reset"
+    "ctrl-r":     "liascript-preview:reset",
+
+    "ctrl-n":     "liascript-preview:open-in-browser"
   }
 }
