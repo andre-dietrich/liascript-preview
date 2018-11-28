@@ -27,7 +27,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "http": "0.0.0"
-  }
+  "dependencies": {}
 }
