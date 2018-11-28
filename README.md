@@ -8,10 +8,7 @@ https://atom.io/packages/liascript-preview
 
 ## Install
 
-This has been tested on Linux. If you are on a Windows machine, you will
-probably have to allow your firewall that 2 local ports will be opened, which
-are required for this package. Or change these parameters in your
-liascript-preview settings.
+This has been tested on Linux and Windows.
 
 ### Command Line
 
