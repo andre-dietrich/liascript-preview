@@ -1,8 +1,8 @@
 <!--
 
-author:   Andre Dietrich
-email:    dietrich@ivs.cs.uni-magdeburg.de
-version:  1.0.0
+author:   André Dietrich
+email:    andre.dietrich@ovgu.de
+version:  2.0.0
 language: en
 narrator: US English Female
 
