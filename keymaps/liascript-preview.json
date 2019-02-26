@@ -1,17 +1,17 @@
 {
   "atom-workspace": {
-    "ctrl-alt-l": "liascript-preview:toggle",
-    "f5":         "liascript-preview:reload",
+    "alt-l":     "liascript-preview:toggle",
+    "f5":        "liascript-preview:reload",
 
-    "alt-left":   "liascript-preview:go-back",
-    "alt-right":  "liascript-preview:go-forward",
+    "alt-left":  "liascript-preview:go-back",
+    "alt-right": "liascript-preview:go-forward",
 
-    "ctrl-+":     "liascript-preview:zoom-in",
-    "ctrl--":     "liascript-preview:zoom-out",
-    "ctrl-0":     "liascript-preview:reset-zoom",
+    "ctrl-+":    "liascript-preview:zoom-in",
+    "ctrl--":    "liascript-preview:zoom-out",
+    "ctrl-0":    "liascript-preview:reset-zoom",
 
-    "ctrl-r":     "liascript-preview:reset",
+    "ctrl-r":    "liascript-preview:reset",
 
-    "ctrl-n":     "liascript-preview:open-in-browser"
+    "ctrl-n":    "liascript-preview:open-in-browser"
   }
 }
