@@ -33,6 +33,7 @@ In the terminal, install the package via apm:
 * Toggle Preview
 * History navigation
 * Resizing
+* Syncing in both directions via double-clicking
 
 ![screencast](./preview.gif)<!--width= "100%" -->
 
