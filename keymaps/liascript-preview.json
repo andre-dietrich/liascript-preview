@@ -12,8 +12,6 @@
 
     "ctrl-r":    "liascript-preview:reset",
 
-    "ctrl-n":    "liascript-preview:open-in-browser",
-
-    "ctrl-shift-d": "liascript-preview:dev-console"
+    "ctrl-n":    "liascript-preview:open-in-browser"
   }
 }
