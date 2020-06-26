@@ -12,7 +12,7 @@ This has been tested on Linux and Windows.
 
 ### Command Line
 
-Install Atom 1.22 or newer
+Install Atom 1.48 or newer
 
 In the terminal, install the package via apm:
 
@@ -34,6 +34,8 @@ In the terminal, install the package via apm:
 * History navigation
 * Resizing
 * Syncing in both directions via double-clicking
+* Separate Dev-Tools
+* Experimental jit-compiler
 
 ![screencast](./preview.gif)<!--width= "100%" -->
 
@@ -41,7 +43,7 @@ In the terminal, install the package via apm:
 
 
 | Shortcut  | Action                                          |
-|-----------|-------------------------------------------------|
+| --------- | ----------------------------------------------- |
 | Alt+l     | Toggle preview                                  |
 | F5        | Reload preview                                  |
 | Ctrl+s    | Save Markdown and update preview                |
@@ -52,6 +54,9 @@ In the terminal, install the package via apm:
 | Ctrl+0    | Reset zoom to original (100%)                   |
 | Ctrl+r    | Reset all stored settings, codes, quizzes, etc. |
 | Ctrl+n    | Open LiaScript in browser window                |
+| Ctrl+l+i  | Open Dev Tools for LiaScript-webview            |
+
+
 
 ## Related Projects
 
