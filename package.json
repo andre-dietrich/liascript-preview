@@ -23,7 +23,7 @@
       "liascript-preview:toggle-dev-tools"
     ]
   },
-  "repository": "https://github.com/andre-dietrich/liascript-preview",
+  "repository": "https://github.com/liascript/liascript-preview",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
