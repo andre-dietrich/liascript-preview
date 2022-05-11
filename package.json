@@ -1,14 +1,14 @@
 {
   "name": "liascript-preview",
   "main": "./lib/liascript-preview",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Atom preview package for LiaScript",
   "keywords": [
     "liascript",
     "markdown",
     "online course",
     "MOOC",
-    "eductation",
+    "education",
     "OER"
   ],
   "activationCommands": {
