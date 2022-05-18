@@ -1,7 +1,7 @@
 {
   "name": "preview-liascript",
   "main": "./lib/liascript-preview",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Atom preview package for LiaScript",
   "keywords": [
     "liascript",
