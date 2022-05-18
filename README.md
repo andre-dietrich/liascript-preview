@@ -4,11 +4,33 @@ A preview-plugin for [LiaScript](https://LiaScript.github.io), an extended
 markdown notation that is intended to be used for interactive online-course
 generation.
 
-https://atom.io/packages/liascript-preview
+https://github.com/andre-dietrich/liascript-preview
 
 ## Install
 
 This has been tested on Linux and Windows.
+
+### GUI
+
+1. Install Atom 1.22 or newer
+
+   You will have to install git first! If you are on a Windows machine,
+   go to:
+
+   https://git-scm.com/downloads
+
+   Download and install git with the default settings for your system.
+
+2. Launch Atom
+3. Open Settings View using Cmd+, on macOS or Ctrl+, on other platforms
+
+   Or simply hit Ctrl+Shift+P to get to the fuzzy search and type: settings
+
+   ... and hit enter
+
+4. Click the Install tab on the left side
+5. Enter `andre-dietrich/liascript-preview` in the search box
+6. Click the "Install" button that appears
 
 ### Command Line
 
@@ -16,16 +38,7 @@ Install Atom 1.48 or newer
 
 In the terminal, install the package via apm:
 
-    `apm install liascript-preview`
-
-### GUI
-
-1. Install Atom 1.22 or newer
-2. Launch Atom
-3. Open Settings View using Cmd+, on macOS or Ctrl+, on other platforms
-4. Click the Install tab on the left side
-5. Enter `liascript-preview` in the search box and press Enter
-6. Click the "Install" button that appears
+    `apm install andre-dietrich/liascript-preview`
 
 ## Features
 
@@ -62,6 +75,6 @@ In the terminal, install the package via apm:
 
 It is recommended to install also:
 
-[liascript-snippets](https://atom.io/packages/liascript-snippets)
+[liascript-snippets](https://github.com/andre-dietrich/liascript-snippets)
 
-A collection of shortcodes for mor efficient course generation.
+A collection of short-codes for mor efficient course generation.
