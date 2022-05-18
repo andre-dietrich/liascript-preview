@@ -1,5 +1,5 @@
 {
-  "name": "preview-liascript",
+  "name": "liascript-preview",
   "main": "./lib/liascript-preview",
   "version": "0.0.0",
   "description": "Atom preview package for LiaScript",
@@ -23,7 +23,7 @@
       "liascript-preview:toggle-dev-tools"
     ]
   },
-  "repository": "https://github.com/liascript/liascript-preview",
+  "repository": "https://github.com/andre-dietrich/liascript-preview",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
