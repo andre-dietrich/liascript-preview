@@ -1,7 +1,7 @@
 {
   "name": "liascript-preview",
   "main": "./lib/liascript-preview",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Atom preview package for LiaScript",
   "keywords": [
     "liascript",
@@ -29,6 +29,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@liascript/editor": "^1.1.0--0.10.9"
+    "@liascript/editor": "^1.1.0--0.10.10"
   }
 }
