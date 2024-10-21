@@ -29,6 +29,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@liascript/editor": "^1.1.7--0.16.2"
+    "@liascript/editor": "^1.1.7--0.16.3"
   }
 }
